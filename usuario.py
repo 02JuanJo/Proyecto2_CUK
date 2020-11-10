@@ -23,8 +23,8 @@ class ControlDeUsuarios:
     
 
     UsuarioMaestro = Usuario("Usuario","Maestro","admin","admin","Administrador")
-    r2 = Usuario("uwu","uwu","zz","zz","Cliente")
-    r3 = Usuario("J","L","aaa","777","Cliente")
+    r2 = Usuario("Juan","Lopez","JLopez","123456","Cliente")
+    r3 = Usuario("Rachel","Matzar","RMatzar","456123","Cliente")
 
     usuarios.append(r2)
     usuarios.append(r3)
