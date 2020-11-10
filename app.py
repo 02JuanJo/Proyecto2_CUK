@@ -522,18 +522,15 @@ def registrarUsuario():
 
 ############################################ PRINCIPAL ##################################################################
 
-@app.route('/', methods=['GET'])
+@app.route('/')
 
 def index():
-    return 'index.html'
 
+    return jsonify({
+                "Message":"BACKEND PROYECTO CUK",
+                "METHOD" : "POST"
+            })
 
+if __name__ == '__main__':
 
-    ##return jsonify({
-     #           "Message":"BACKEND PROYECTO CUK",
-     #           "METHOD" : "POST"
-      #      })
-
-#if __name__ == '__main__':
-
-    #app.run(threaded=True, port=5000)
+    app.run(threaded=True, port=5000)
